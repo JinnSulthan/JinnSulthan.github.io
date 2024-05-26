@@ -2,92 +2,525 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                                        <!-- Favicon Image link -->
-  <link rel="icon" type="image/x-icon" href="img/pfp.jpg">
-  <title>Ashik Muhammed</title>  <!-- Page Title -->
+	<title>Albin - Potfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/style.css"> 
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+	
 </head>
 
-<body>
-  <div class="wrapper">
-    <div class="toggle">
-      <input class="toggle-input" type="checkbox" />
-      <div class="toggle-bg"></div>
-      <div class="toggle-switch">
-        <div class="toggle-switch-figure"></div>
-        <div class="toggle-switch-figureAlt"></div>
-      </div>
-    </div>
-  </div>
-  <section class="main">
-    <div class="container">
-      <div class="top">
-        <div class="k-wrap">
-          <div class="menu">
-            <div class="a"></div>
-            <div class="b"></div>
-            <div class="c"></div>
-          </div>
-          <!-- Nav Bar Start -->
-          <div id="menu-list" class="menu-li">
-            <a href="https://github.com/JinnSulthan">Github</a>
-            <a href="https://t.me/JinnSulthan">Telegram</a>
-          <!--  <a href="https://www.youtube.com/ashlinsunil">You Tube</a> -->
-            <a href="https://x.com/jinnsulthan">Twitter</a>
-          </div>
-        </div>
-        <div class="email">
-          <!-- Email ID here -->
-           <a href="mailto:ashikmuhammed.me@gmail.com"><i class="far fa-envelope"></i></a> 
-        </div>
-        <div class="logo">
-          <!-- LOGO Here -->
-          <img src="img/pfp.jpg">
-        </div>
-        <div class="name">
-          <h2>Ashik Muhammed</h2> <!--  Enter your name here. -->
-          <p>@JinnSulthan</p> <!--  Enter your username here. -->
-        </div>
-      </div>
-      <div class="bottom">
-        <div class="details">
-          <h2>About</h2>
-          <hr>
-          <br>
-          <!-- Info here -->
-          <pre><p class="info" >Graphic Designer |•|Computer Operator|•|</p></pre>
-          </pre>
-        </div>
-        <div class="social">
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-          <!--  Enter ur social media links here -->
-          <a href="https://github.com/JinnSulthan"><i class="fab fa-github"></i></a>
-          <a href="https://t.me/JinnSulthan"><i class="fab fa-telegram"></i></a>
-       <!--   <a href="https://www.youtube.com/ashlinsunil"><i class="fab fa-youtube"></i></a> -->
-          <a href="https://x.com/jinnsulthan"><i class="fab fa-twitter"></i></a>
 
-          <!-- Some other social media icons copy it from below and paste it above
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
+		id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Albin <span style="color: rgb(145, 8, 8);">Binu</span></a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+				data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-          <a href=""><i class="fab fa-linkedin"></i></a>
-          <a href=""><i class="fab fa-twitter"></i></a>
-          <a href=""><i class="fas fa-coffee"></i></a>
-          <a href=""><i class="fab fa-instagram"></i></a> 
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url(images/c-1.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello! I'm Albin</span>
+								<h1 class="mb-4 mt-3">Web Devloper, Designer.</h1>
+								<p><a href="#" onclick="alrt()" class="btn btn-primary btn-outline-primary">Download
+										CV</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-          -->
-        </div>
-        <div class="btns">
-          <div class="btn1"><a class="follow" href="https://github.com/JinnSulthan" target="_blank">FOLLOW</a></div>
-      <!--    <div class="btn2"><a class="more" href="https://amkidbot.me/info.html" target="_blank">MORE</a></div> -->
-        </div>
-      </div>
-    </div>
-  </section>
-  <script src="main.js"></script>
+			<!-- <div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end"
+						data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url(images/c-2.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate"
+							data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">I Design Functiong Webapages</span>
+								<h1 class="mb-4 mt-3">Hi, I am <span>Albin</span> <br>an Mid-Level <br> Devloper</h1>
+								<p><a href="#" onclick="alrt()" class="btn btn-primary btn-outline-primary">Download
+										CV</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</div>
+	</section>
+
+	<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-5 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center"
+							style="background-image:url(images/about-pic.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+					<div class="py-md-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<span class="subheading">My Intro</span>
+								<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+								<p>My name is Albin Binu, and I'm a first-year computer science student at the College
+									of Applied Science, Thiruvambadi. I love programming, but understanding the logic
+									behind it is challenging for me. I dislike mathematics; consequently, grasping
+									math-based logic is not my forte. Despite this, I am currently focusing on web
+									development and object-oriented languages to enhance my skills.</p>
+
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Name:</span> <span>Albin Binu</span></li>
+									<li class="d-flex"><span>Date of birth:</span> <span>August,05</span></li>
+									<li class="d-flex"><span>Address:</span> <span>Kerala, Calicut</span></li>
+									<li class="d-flex"><span>Email:</span> <span>albinbinuk17@gmail.com</span></li>
+								</ul>
+							</div>
+							<div class="col-md-12">
+								<div class="my-interest d-lg-flex w-100">
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-listening"></span>
+										</div>
+										<div class="text">Music</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-suitcases"></span>
+										</div>
+										<div class="text">Travel</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-video-player"></span>
+										</div>
+										<div class="text">Movie</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section bg-light" id="skills-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Skills</span>
+					<h2 class="mb-4">My Skills</h2>
+					<p>As a beginner, I'm embarking on an exciting journey of creativity. Through dedication, practice,
+						and a thirst for inspiration, I'm unlocking endless possibilities. I'm still learning from
+						mistakes</p>
+				</div>
+			</div>
+
+			<div class="row progress-circle mb-5">
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
+
+						<!--bar 1 -->
+						<div class="progress mx-auto" data-value='63'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">63<sup class="small">%</sup></div>
+							</div>
+						</div>
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">00%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">00%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
+
+						<!--bar 2 -->
+						<div class="progress mx-auto" data-value='72'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">72<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">00%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">01%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">BootStarp</h2>
+
+						<!-- bar 3 -->
+						<div class="progress mx-auto" data-value='50'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">50<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">40%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">23%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
+
+						<!-- bar 4 -->
+						<div class="progress mx-auto" data-value='57'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">57<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">40%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">50%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Express</h2>
+
+						<!-- bar 5 -->
+						<div class="progress mx-auto" data-value='12'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">12<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">00%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">08%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">C</h2>
+
+						<!-- bar 6 -->
+						<div class="progress mx-auto" data-value='34'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div
+								class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">34<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">10%</div><span class="small text-gray">Last
+									week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">30%</div><span class="small text-gray">Last
+									month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section" id="sub-heading">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<span class="subheading">I am good at</span>
+					<h2 class="mb-4">I do awesome projects for devloping my skills</h2>
+					<p>Don't Expect MindBlowing Programs From My Side, I'M STILL LEARING:)</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center"><span
+								class="flaticon-3d-design"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Web Design</h3>
+							<p>Designing skills are a nightmare for me.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon shadow d-flex align-items-center justify-content-center"><span
+								class="flaticon-web-programming"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Web Development</h3>
+							<p>I like complex back-end logics than designing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">Contact me</span>
+					<h2 class="mb-4">Keep in Touch With Me</h2>
+					<p>Only Late Replies:)</p>
+				</div>
+			</div>
+	
+			<div class="row block-9">
+	
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="bi bi-geo-alt-fill"></span>
+							</div>
+							<div class="text">
+								<p><span>Address:</span>Kerala, Calicut</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="bi bi-envelope"></span>
+							</div>
+							<div class="text">
+								<p><span>Email:</span> <a href="mailto:albinbinuk17@gmail.com">albinbinuk17@gmail.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="bi bi-telegram"></span>
+							</div>
+							<div class="text">
+								<p><span>Telegram:</span>Albin Binu<a target="_blank" href="https.t.me/Albin_Binu"></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md-4">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="#"><span class="bi bi-arrow-right mr-2"></span>Home</a></li>
+							<li><a href="#"><span class="bi bi-arrow-right mr-2"></span>About</a></li>
+							<li><a href="#"><span class="bi bi-arrow-right mr-2"></span>Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Skills</h2>
+						<ul class="list-unstyled">
+							<li><a href="#" onclick="alrt()"><span class="bi bi-arrow-right mr-2"></span>Web Design</a></li>
+							<li><a href="#" onclick="alrt()"><span class="bi bi-arrow-right mr-2"></span>Web Development</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Follow me on</h2>
+						<ul class="list-unstyled">
+							<li><a href="https://github.com/Albin-Binu" target="_blank"><span class="bi bi-github mr-2"></span>GitHub</a></li>
+							<li><a href="https://www.instagram.com/albinbinu.me/" target="_blank"><span class="bi bi-instagram mr-2"></span>Instagram</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p>Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> Albin Binu | All rights reserved. 
+					<p>Inspired from David</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+				stroke="#F96D00" />
+		</svg></div>
+	<script>
+		const alrt = () => {
+			alert("Will be add soon")
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/scrollax.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 
 </html>
